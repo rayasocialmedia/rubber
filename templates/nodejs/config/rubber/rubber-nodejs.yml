@@ -1,0 +1,8 @@
+nodejs_server_version: 0.8.17
+nodejs_server_pid_file: /var/run/nodejs-server.pid
+nodejs_root_directory: /node/
+nodejs_app_file: app.js
+
+roles:
+  nodejs:
+    packages: [zip]
